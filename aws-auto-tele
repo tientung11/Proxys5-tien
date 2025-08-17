@@ -39,7 +39,7 @@ __is_allowed_pair() {
 setup_proxy_single_port() {
   local PORT="$1" PASSWORD="$2" ALLOW_IP="$3"
   local ENABLE_TELEGRAM="$4" BOT_TOKEN="$5" USER_ID="$6"
-  local USERNAME="mr.tien"
+  local USERNAME="tien"
 
   # ---- GATE: chỉ cho phép BOT_TOKEN/USER_ID trong whitelist; bắt buộc ENABLE_TELEGRAM=1 ----
   if [[ "$ENABLE_TELEGRAM" != "1" ]]; then
