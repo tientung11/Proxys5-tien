@@ -33,7 +33,7 @@ get_fast_port() {
 # TELEGRAM WHITELIST
 read -r -d '' __TELEGRAM_ALLOWLIST <<"WL" || true
 8337521994:AAGC6jOTVGGzKksT3scDxhPjPv24uuNaPy0|1399941464
-
+8488804766:AAEMfAPeWStdblou4SBm16gVd2wlhpHIf-M|1100742024
 WL
 
 __mask_token(){ local t="${1:-}"; [[ -z "$t" ]] && { echo "<empty>"; return; }; echo "${t:0:8}********"; }
